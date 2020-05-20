@@ -1,0 +1,33 @@
+header {
+    border-bottom: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    background-color: #8a0514;
+}
+
+nav {
+    /* border: 1px solid green; */
+    grid-column: 2 / 4;
+}
+
+h1 {
+    /* display: inline-block; */
+    grid-column: 1 / 2;
+    margin: 2%;
+    font-size: 6vh;
+    color: #fff;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 0 5%;
+    font-size: 3vh;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-button-active {
+    background-color: #fff;
+    color: #8a0514;
+}
