@@ -1,9 +1,12 @@
 import React from 'react'
+import './WorkEducation.css'
 
 const WorkEducation = () => {
 
     return (
-        <p>work education</p>
+        <section className="word-education">
+            <p>work education</p>
+        </section>
     )
 }
 

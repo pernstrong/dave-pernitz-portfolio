@@ -1,9 +1,12 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
 
     return (
-        <p>contact</p>
+        <section className="contact">
+            <p>contact</p>
+        </section>
     )
 }
 
