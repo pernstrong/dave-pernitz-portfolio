@@ -7,7 +7,11 @@ import './Header.css'
 const Header = () => {
     return (
         <header>
-            <h1>dave pernitz</h1>
+            <NavLink exact to="/"
+            className="name-link"
+            activeClassName="name-link-active">
+                dave pernitz
+            </NavLink>
             <nav>
                 <ul>
                     <NavLink exact to="/" className="nav-button" activeClassName="nav-button-active">

@@ -1,0 +1,25 @@
+.about {
+    background-color: #fff;
+    width: 80%;
+    margin: 2% auto;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.about h2 {
+    font-size: 5vh;
+    margin: 2% 0 2% 5%;
+}
+
+.about p {
+    font-size: 3vh;
+    margin: 0 5% 0 5%;
+}
+
+.about h3 {
+    margin: 5% 0 1% 5%;
+}
+.about ul {
+    margin: 0 0 0 5%;
+    padding-bottom: 5%;
+}

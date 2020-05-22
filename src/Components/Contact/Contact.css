@@ -1,0 +1,23 @@
+.contact {
+    background-color: #fff;
+    width: 80%;
+    margin: 2% auto;
+    height: 80vh;
+}
+
+.contact h2 {
+    font-size: 5vh;
+    /* margin: 5% 0 2% 5% */
+}
+
+/* .contact-header {
+    font-size: 5vh;
+    margin: 5% 0 2% 5%;
+} */
+
+/* .contact-info a {
+    font-size: 5vh;
+    display: block;
+    margin: 3% 0 0 5%;
+
+} */

@@ -1,0 +1,26 @@
+.projects {
+    background-color: #fff;
+    width: 80%;
+    margin: 2% auto;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.projects h2 {
+    font-size: 5vh;
+    margin: 2% 0 2% 5%;
+}
+
+.projects h3 {
+    margin: 0 0 0 5%;
+}
+
+.projects a {
+    display: block;
+    margin: 0 0 0 5%;
+}
+
+.projects img {
+    width: 25%;
+    margin: 2% 0 2% 5%;
+}

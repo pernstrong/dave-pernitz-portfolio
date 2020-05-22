@@ -1,16 +1,23 @@
 
 
 .home {
-    margin: 20% 5%;
-    color: #2b1d1f;
+    margin: 0 0 0 8%;
+    color: #fff;
     width: 50%;
 }
 
-.name {
+.first-name {
+    font-size: 7vh;
+    margin: 0;
+    margin-bottom: -2%;
+}
+
+.last-name {
     font-size: 7vh;
     margin: 0;
 }
 
 .home-subtitle {
     font-size: 4vh;
+    margin: 0;  
 }
