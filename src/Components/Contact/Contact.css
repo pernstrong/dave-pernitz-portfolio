@@ -3,4 +3,17 @@
     width: 80%;
     margin: 2% auto;
     height: 80vh;
+    /* margin: 2% */
+}
+
+.contact h2 {
+    font-size: 7vh;
+    margin: 2% 0 0 5%;
+}
+
+.contact-info {
+    font-size: 5vh;
+    display: block;
+    margin: 5% 0 0 5%;
+
 }

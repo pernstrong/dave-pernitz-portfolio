@@ -5,9 +5,9 @@ const Home = () => {
 
     return (
         <section className="home">
-            <p className="name">dave</p>
-            <p className="name">pernitz</p>
-            <p className="home-subtitle">Front-End Developer</p>
+            <p className="first-name">dave</p>
+            <p className="last-name">pernitz</p>
+            <p className="home-subtitle">front-end developer</p>
         </section>
     )
 }
