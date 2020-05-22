@@ -24,7 +24,7 @@ h1 {
     margin: 0 4%;
     font-size: 3vh;
     color: #fff;
-    background-color: #26211f;
+    background-color: #77a9d5;
 
     text-decoration: none;
     list-style: none;
@@ -36,7 +36,7 @@ h1 {
 
 .nav-button-active {
     background-color: #fff;
-    color: #26211f;
+    color: #77a9d5;
     padding: 1%;
     border-radius: 10px;
 }
