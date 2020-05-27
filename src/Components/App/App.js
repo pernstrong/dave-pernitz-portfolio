@@ -15,11 +15,11 @@ function App() {
       <Header />
       <main>
         <Switch>
-          <Route path="/about" render={() => <About /> } />
-          <Route path="/projects" render={() => <Projects /> } />
-          <Route path="/workeducation" render={() => <WorkEducation /> } />
-          <Route path="/contact" render={() => <Contact /> } />
-          <Route exact path="/" render={() => <Home /> } />
+          <Route path="/dave-pernitz-portfolio/about" render={() => <About /> } />
+          <Route path="/dave-pernitz-portfolio/projects" render={() => <Projects /> } />
+          <Route path="/dave-pernitz-portfolio/workeducation" render={() => <WorkEducation /> } />
+          <Route path="/dave-pernitz-portfolio/contact" render={() => <Contact /> } />
+          <Route exact path="/dave-pernitz-portfolio" render={() => <Home /> } />
         </Switch>
       </main>
     </>
