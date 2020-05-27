@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header>
-            <NavLink exact to="/"
+            <NavLink exact to="/dave-pernitz-portfolio"
             className="name-link"
             activeClassName="name-link-active">
                 dave pernitz
