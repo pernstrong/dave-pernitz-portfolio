@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "418823579515de72f30d7c88c4560a26",
+    "revision": "b631bdf216cc993b013597822ff36bfa",
     "url": "/dave-pernitz-portfolio/index.html"
   },
   {
-    "revision": "9aa7227fc95e41ed403a",
+    "revision": "6195478fe369a1382994",
     "url": "/dave-pernitz-portfolio/static/css/main.555bee37.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dave-pernitz-portfolio/static/js/2.a2d8c822.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9aa7227fc95e41ed403a",
-    "url": "/dave-pernitz-portfolio/static/js/main.0bf509c4.chunk.js"
+    "revision": "6195478fe369a1382994",
+    "url": "/dave-pernitz-portfolio/static/js/main.e370a273.chunk.js"
   },
   {
     "revision": "264e7346594bb03134a1",
