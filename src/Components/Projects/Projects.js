@@ -3,10 +3,10 @@ import './Projects.css'
 
 const Projects = () => {
 
-    const vradImage = '/dave-pernitz-portfolio/images/vrad.PNG'
-    const overlookImage = '/dave-pernitz-portfolio/images/overlook.PNG'
-    const whatsNewImage = '/dave-pernitz-portfolio/images/whats-new.PNG'
-    const checkYoSelfImage = '/dave-pernitz-portfolio/images/check-yo-self.PNG'
+    const vradImage = '/dave-pernitz-portfolio/images/vrad.png'
+    const overlookImage = '/dave-pernitz-portfolio/images/overlook.png'
+    const whatsNewImage = '/dave-pernitz-portfolio/images/whats-new.png'
+    const checkYoSelfImage = '/dave-pernitz-portfolio/images/check-yo-self.png'
 
     return (
         <section className="projects">
