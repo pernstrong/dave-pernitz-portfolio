@@ -14,23 +14,23 @@ const Header = () => {
             </NavLink>
             <nav>
                 <ul>
-                    <NavLink exact to="/" className="nav-button" activeClassName="nav-button-active">
+                    <NavLink exact to="/dave-pernitz-portfolio" className="nav-button" activeClassName="nav-button-active">
                         <li>home</li>
                     </NavLink>
 
-                    <NavLink to="/about" className="nav-button" activeClassName="nav-button-active">
+                    <NavLink to="/dave-pernitz-portfolio/about" className="nav-button" activeClassName="nav-button-active">
                         <li>about</li>
                     </NavLink>
 
-                    <NavLink to="/projects" className="nav-button" activeClassName="nav-button-active">
+                    <NavLink to="/dave-pernitz-portfolio/projects" className="nav-button" activeClassName="nav-button-active">
                         <li>projects</li>
                     </NavLink>
 
-                    <NavLink to="/workeducation" className="nav-button" activeClassName="nav-button-active">
+                    <NavLink to="/dave-pernitz-portfolio/workeducation" className="nav-button" activeClassName="nav-button-active">
                         <li>work/education</li>
                     </NavLink>
 
-                    <NavLink to="/contact" className="nav-button" activeClassName="nav-button-active">
+                    <NavLink to="/dave-pernitz-portfolio/contact" className="nav-button" activeClassName="nav-button-active">
                         <li>contact</li>
                     </NavLink>
 
