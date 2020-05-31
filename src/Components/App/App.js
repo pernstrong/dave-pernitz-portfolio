@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom'
 
@@ -11,14 +11,13 @@ import WorkEducation from '../WorkEducation/WorkEducation'
 import ReactGA from 'react-ga'
 
 
+
 function App() {
 
-  const initializeReactGA = () => {
-    ReactGA.initialize('UA-168111706-1
-    ')
-    ReactGA.pageview('/homepage')
-  }
 
+useEffect(() => {
+  ReactGA.initialize('UA-168111706-1')
+}, [])
 
   return (
     <>
