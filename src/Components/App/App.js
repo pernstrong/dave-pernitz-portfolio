@@ -8,8 +8,18 @@ import Header from '../Header/Header'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
 import WorkEducation from '../WorkEducation/WorkEducation'
+import ReactGA from 'react-ga'
+
 
 function App() {
+
+  const initializeReactGA = () => {
+    ReactGA.initialize('UA-168111706-1
+    ')
+    ReactGA.pageview('/homepage')
+  }
+
+
   return (
     <>
       <Header />
