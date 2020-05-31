@@ -9,15 +9,14 @@ import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
 import WorkEducation from '../WorkEducation/WorkEducation'
 import ReactGA from 'react-ga'
-
+ReactGA.initialize('168111706')
 
 
 function App() {
 
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
-useEffect(() => {
-  ReactGA.initialize('UA-168111706-1')
-}, [])
+
 
   return (
     <>
