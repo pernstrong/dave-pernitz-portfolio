@@ -4,6 +4,7 @@
     margin: 2% auto;
     height: 80vh;
     overflow: scroll;
+    border-radius: 10px;
 }
 
 .about h2 {
