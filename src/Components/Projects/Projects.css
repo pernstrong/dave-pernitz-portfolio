@@ -25,7 +25,7 @@
 
 .projects a {
     display: block;
-    margin: 0 0 0 5%;
+    margin: 1% 0 0 5%;
     grid-column: 1;
 }
 
@@ -42,4 +42,8 @@
 }
 .projects ul {
     grid-column: 2 / 3;
+}
+
+.column-one {
+    margin: 2% 0 2% 5%;
 }
