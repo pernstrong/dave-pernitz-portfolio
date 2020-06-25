@@ -26,6 +26,10 @@ const Header = () => {
                         <li>projects</li>
                     </NavLink>
 
+                    <NavLink to="/dave-pernitz-portfolio/talks" className="nav-button" activeClassName="nav-button-active">
+                        <li>talks</li>
+                    </NavLink>
+
                     <NavLink to="/dave-pernitz-portfolio/workeducation" className="nav-button" activeClassName="nav-button-active">
                         <li>work/education</li>
                     </NavLink>
