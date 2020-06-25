@@ -1,0 +1,37 @@
+.talks {
+    background-color: #fff;
+    width: 80%;
+    margin: 2% auto;
+    height: 80vh;
+    overflow: scroll;    
+    border-radius: 10px;
+}
+
+.talks h2 {
+    font-size: 5vh;
+    margin: 2% 0 2% 5%;
+}
+
+.talks h3 {
+    border-bottom: 1px solid black
+}
+
+iframe {
+    margin: 2%;
+    border: 2px solid black;
+    grid-column: 1 / 2;
+}
+
+
+.talk-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 2%;
+    /* border: 1px solid black; */
+}
+
+.talks p {
+    width: 90%;
+    margin: 0 5%;
+    font-size: 3vh;
+}

@@ -7,6 +7,7 @@ import Contact from '../Contact/Contact'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
+import Talks from '../Talks/Talks'
 import WorkEducation from '../WorkEducation/WorkEducation'
 import ReactGA from 'react-ga'
 ReactGA.initialize('UA-168111706-1')
@@ -25,6 +26,7 @@ function App() {
         <Switch>
           <Route path="/dave-pernitz-portfolio/about" render={() => <About /> } />
           <Route path="/dave-pernitz-portfolio/projects" render={() => <Projects /> } />
+          <Route path="/dave-pernitz-portfolio/talks" render={() => <Talks /> } />
           <Route path="/dave-pernitz-portfolio/workeducation" render={() => <WorkEducation /> } />
           <Route path="/dave-pernitz-portfolio/contact" render={() => <Contact /> } />
           <Route exact path="/dave-pernitz-portfolio" render={() => <Home /> } />
