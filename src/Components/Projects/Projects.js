@@ -7,7 +7,6 @@ const Projects = () => {
     const beersImage = '/dave-pernitz-portfolio/images/beers.png'
     const overlookImage = '/dave-pernitz-portfolio/images/overlook.png'
     const whatsNewImage = '/dave-pernitz-portfolio/images/whats-new.png'
-    const checkYoSelfImage = '/dave-pernitz-portfolio/images/check-yo-self.png'
 
     return (
         <section className="projects">
@@ -32,7 +31,7 @@ const Projects = () => {
                     </ul>
                 </section>
             </section>
-            
+
             <section className="project-card">
                 <section className="column-one">
                     <h3>VRAD - Vacation Rentals Around Denver</h3>
