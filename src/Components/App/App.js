@@ -27,7 +27,7 @@ function App() {
           <Route path="/dave-pernitz-portfolio/about" render={() => <About /> } />
           <Route path="/dave-pernitz-portfolio/projects" render={() => <Projects /> } />
           <Route path="/dave-pernitz-portfolio/talks" render={() => <Talks /> } />
-          <Route path="/dave-pernitz-portfolio/workeducation" render={() => <WorkEducation /> } />
+          {/* <Route path="/dave-pernitz-portfolio/workeducation" render={() => <WorkEducation /> } /> */}
           <Route path="/dave-pernitz-portfolio/contact" render={() => <Contact /> } />
           <Route exact path="/dave-pernitz-portfolio" render={() => <Home /> } />
         </Switch>

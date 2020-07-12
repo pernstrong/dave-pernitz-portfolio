@@ -9,6 +9,7 @@ header {
 nav {
     /* border: 1px solid green; */
     grid-column: 2 / 4;
+    margin-left: 10%;
 }
 
 h1 {

@@ -5,7 +5,7 @@ const Talks = () => {
 
     return (
         <section className="talks">
-            <h2>Talks</h2>
+            <h2>talks</h2>
             <section className="talk-card">
                 <h3>Selling the JAMstack</h3>
                 <iframe title="jamstack-video" width="560" height="315" src="https://www.youtube.com/embed/eYk0GmyEbcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
