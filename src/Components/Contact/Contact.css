@@ -8,13 +8,19 @@
 
 .contact h2 {
     font-size: 5vh;
-    margin: 2% 0 2% 5%
+    padding: 2% 0 2% 5%
 }
 
-.contact a,
+
 .contact p {
     font-size: 5vh;
     display: block;
     margin: 3% 0 0 5%;
+}
 
+.contact a {
+    font-size: 5vh;
+    display: block;
+    margin: 3% 0 0 5%;
+    text-decoration: none;
 }
