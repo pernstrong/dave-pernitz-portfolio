@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dave-pernitz-portfolio/precache-manifest.ec264b5295e1960e4cc0eabc86667871.js"
+  "/dave-pernitz-portfolio/precache-manifest.2778fa8dc8b73d7f6d29f0382b6587a7.js"
 );
 
 self.addEventListener('message', (event) => {
