@@ -8,7 +8,7 @@ import Header from '../Header/Header'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
 import Talks from '../Talks/Talks'
-import WorkEducation from '../WorkEducation/WorkEducation'
+// import WorkEducation from '../WorkEducation/WorkEducation'
 import ReactGA from 'react-ga'
 ReactGA.initialize('UA-168111706-1')
 ReactGA.pageview(window.location.pathname + window.location.search);

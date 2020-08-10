@@ -7,11 +7,32 @@ const Projects = () => {
     const beersImage = '/dave-pernitz-portfolio/images/beers.png'
     const overlookImage = '/dave-pernitz-portfolio/images/overlook.png'
     const whatsNewImage = '/dave-pernitz-portfolio/images/whats-new.png'
+    const copWatchImage = '/dave-pernitz-portfolio/images/copwatch.png'
+    const nowWhatImage = '/dave-pernitz-portfolio/images/nowwhat.png'
 
     return (
         <section className="projects">
             <h2>projects</h2>
             
+            <section className="project-card">
+                <section className="column-one">
+                    <h3>CopWatch</h3>
+                    <a href="https://github.com/pernstrong/CopWatch-FE">GitHub Repository</a>
+                    <img src={`${copWatchImage}`} alt="screenshot of copwatch application home screen" />
+                </section>
+                <section className="column-two">
+                    <p>Key Technologies</p>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Expo Toolchain</li>
+                        <li>Jest / React Testing Native Library</li>
+                        <li>Cloudinary</li>
+                        <li>Travis CI</li>
+                        <li>Python</li>
+                    </ul>
+                </section>
+            </section>
+
             <section className="project-card">
                 <section className="column-one">
                     <h3>Beers</h3>
@@ -27,6 +48,25 @@ const Projects = () => {
                         <li>Jest / React Testing Library</li>
                         <li>React Router</li>
                         <li>Network Requests / API</li>
+                        <li>Local Storage</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section className="project-card">
+                <section className="column-one">
+                    <h3>Now What!?</h3>
+                    <a href="https://github.com/pernstrong/now-what">GitHub Repository</a>
+                    <img src={`${nowWhatImage}`} alt="screenshot of now what application home screen" />
+                </section>
+                <section className="column-two">
+                    <p>Key Technologies</p>
+                    <ul>
+                        <li>React with Hooks</li>
+                        <li>TypeScript</li>
+                        <li>Jest / React Testing Library</li>
+                        <li>React Router</li>
+                        <li>TasteDive API</li>
                         <li>Local Storage</li>
                     </ul>
                 </section>
